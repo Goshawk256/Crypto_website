@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+}
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+background: #ee91cf;
+width: 800px;
+gap: 20px;
+padding: 40px 20px;
+}
+h2{
+font-size: 2.5em;
+color: #FFF;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+.sonuc{
+visibility: hidden;
+}
+.goster{
+visibility: visible;
+font-size: 2em;
+color: #FFF;
+font-weight: 600;
+}
+.reset{
+padding: 10px 10px;
+color: #ec4fb8;
+background: #FFF;
+border: none;
+font-size: 1.4em;
+font-weight: 600;
+text-transform: uppercase;  
+letter-spacing: 0.1em;
+cursor: pointer;  
+}
+.reset:focus{
+color: #FFF;
+background-color: #ee91cf;
+}
+.game{
+width: 540px;
+height: 420px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+transform-style: preserve-3d;
+perspective: 400px;
+}
+.item{
+position: relative;
+width: 80px;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 3em;
+background: #FFF;
+transform: rotateY(180deg);
+transition: 0.25s; 
+}
+.item.kutuAc{
+transform: rotateY(0deg);
+}
+.item::after{
+content: '';
+position: absolute;
+inset: 0;
+background: #FFF;
+transition: 0.25s;
+transform: rotateY(0deg);
+backface-visibility: hidden;
+}
+.kutuAc:after,
+.kutuEsle:after{
+transform: rotateY(180deg);
+}

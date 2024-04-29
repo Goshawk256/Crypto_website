@@ -1,0 +1,78 @@
+/* orta kısım*/
+.ortakisim{
+   text-align: center;
+   margin-top: 30px;
+}
+.telefon{
+   display: inline-block;
+   text-align: left;
+   margin-right: 120px;
+   height: 500px;
+   width: 250px;
+}
+.önsöz{
+   display: inline-block;
+   text-align: center;
+}
+.kutu {
+   width: 70%; /* Adjust the width of the frame as desired */
+   margin:auto; /* Center the frame horizontally and add space from the top */
+   border: 2px solid #ee91cf; /* Border style */
+   border-radius: 10px; /* Rounded corners */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+ }
+/* orta kısım sonu*/
+/*soru-cevap kısmı */
+.anabaslik h1 { /*başlık kısmı devamı */
+   font-size: 27px;
+   color: #000;
+   margin-top: 180px;
+   text-align: center;
+   font-weight: bold;
+   margin-bottom: 60px;
+   text-align: center;
+}
+.sorular {
+   margin-top: 15px; 
+   margin-bottom: 15px;
+   display: flex;
+}
+.blok2 a{
+   font-size: 27px;
+   line-height: 38px;
+   float: right;
+}
+.buton{
+   height: 27px;
+   width: 27px;
+   float: right;
+}
+.soru{
+   font-size: 27px;
+   line-height: 38px;
+}
+.resim{
+   height: 27px;
+   width: 27px;
+   margin-left: 30px;
+   margin-right: 20px;
+   margin-top: 8px;
+}
+.metin {
+   margin-bottom: 27px;
+   display: none;
+   font-size: 20px;
+   margin-right: 150px;
+}
+
+/*soru-cevap kısmı sonu*/
+/*şimdikayitkısmı*/
+
+.şimdikayit{
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 66px;
+}
+/*şimdikayitkısmisonu*/

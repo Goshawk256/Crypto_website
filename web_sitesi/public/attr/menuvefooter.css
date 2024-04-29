@@ -1,0 +1,87 @@
+header {
+    box-shadow: 0px -2px 9px 0px #0000008c;
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
+ }
+ /* menü kısmı*/
+ .anakisim{
+    margin-left: 150px;
+ }
+ .biçimlendirme{
+    font-weight: bold;
+ }
+ .biçimlendirme2{
+    margin-top: 5px;
+    margin-right: 100px;
+    word-spacing: 10px;
+ }
+ .navbar-brand { /* skycoin yazısının ortalı olmasını sağlar */
+    padding-top: 0.2125rem;
+ }
+ .dropdown:hover .dropdown-menu { /* menü altı menü şıklarının görünmesini sağlıyor */
+    display: block;
+ }
+ a.nav-link { /* üst çubuk font ve yazı tipi */
+    font-size: 14px;
+    font-family: Roboto !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.05em !important;
+ }
+ .nav-list { /* menü altındaki menünün yerini belirler */
+    position: relative !important;
+ }
+ .dropdown {  /* üst çubuk kelimeler arası boşluk */
+    padding: 0.8rem;
+    position: unset;
+ }
+ .dropdown-menu {
+    min-width: 200px;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.15);
+    animation-name: slideAnimation;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+ }
+ /* menü kısmı sonu*/
+ /*footer- son kısım*/
+.birinci {
+    text-align: center;
+    margin-top: 15px;
+ }
+ .ikinci {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+ }
+ footer {
+    background: #ee91cf;
+    margin-top: 50px;
+    padding: 10px;
+    color: #fff;
+ }
+ /*footer-son kısım sonu*/
+.header-reset {
+    height: 100px;
+ }
+ a,
+ a:hover {
+    color: #000;
+ }
+ a:hover {
+    text-decoration: none !important;
+    color: #ee91cf !important;
+ }
+ 
+ ::selection {
+    background-color: #ee91cf;
+    color: #fff;
+ }
+ .cüzdan{
+   width: 40px;
+   height: 40px;
+}

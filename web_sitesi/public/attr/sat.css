@@ -1,0 +1,88 @@
+.baslik{
+    margin-left: 230px;
+    font-size: 20px;
+}
+.büyükkutu{
+    display: flex;
+    justify-content: center;    
+}
+.kutu1{
+    width: 505px;
+	height: 500px;
+	margin-right: 40px;
+}
+.kutu2{
+    width: 505px;
+	height: 500px;
+	margin: 20px;
+    justify-content: center;
+}
+.kullan{
+    height: 120px;
+    width: 250px;
+}
+.result-container {
+    border: 4px solid rgb(209, 205, 205);
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+}
+.input-with-icon{
+    border: 4px solid rgb(209, 205, 205);
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+    align-items: center;
+}
+.ikonlar{
+    width: 135px;
+    height: 55px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 170px);
+    grid-template-rows: repeat(2, 70px);
+}
+.altbaslik{
+    margin-left: 15px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.yazi{
+    text-align: center;
+    margin-top: 80px;
+}
+.ikincibüyükkutu{
+    width: 1000px;
+	height: 400px;
+    margin: auto;    
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 385px);
+    grid-template-rows: repeat(3, 110px);
+    margin-top: 3%;
+    justify-content: center; /* Container'ı yatayda ortalamak için */
+}
+.box {
+    display: flex;
+    flex-direction:row; /* İç içe div'lerin dikey olarak hizalanması için */
+    align-items: center; /* İç içe div'lerin yatayda ortalanması için */
+    border-radius: 10px;
+    border: 4px solid #ee91cf;
+    margin: 5px;
+    padding: 10px 30px;
+}
+.inner-box {
+    margin-top: 10px;
+    margin-bottom: 10px; /* Boşluk eklemek için */
+    margin-left: 50px;
+}
+.sekil {
+    border-radius: 10px;
+    width: 70px;
+    height: auto;
+    align-items: center;
+}
